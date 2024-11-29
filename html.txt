@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afiliados - Productos Recomendados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        nav {
+            text-align: center;
+            background-color: #34495e;
+            padding: 15px;
+        }
+        nav a {
+            color: #ecf0f1;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .product {
+            background-color: #bdc3c7;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+        }
+        .product h2 {
+            color: #2c3e50;
+        }
+        .product p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background-color: #95a5a6;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Transforma tu vida con productos recomendados</h1>
+        <p>Soy una persona emprendedora con un enfoque en la creación de ingresos a través de la venta de productos de terceros. Mi modelo de negocio se basa en el marketing de afiliados o ventas por comisiones, donde promuevo y vendo productos de diversas marcas o vendedores a través de canales digitales. Al generar ventas, obtengo una comisión por cada transacción realizada gracias a mis recomendaciones.</p>
+    </header>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Contacto</a>
+        <a href="#">Sobre mí</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <section>
+        <!-- Product 1: Velas Artesanales para Emprender -->
+        <div class="product">
+            <h2>Velas Artesanales para Emprender</h2>
+            <p>Conviértete en un experto creando velas artesanales y emprende tu propio negocio. Aprende las técnicas, las mejores recetas y los secretos para tener éxito.</p>
+            <a href="https://go.hotmart.com/I96801966L?dp=1" class="cta-button" target="_blank">Compra ahora</a>
+        </div>
+
+        <!-- Product 2: Te vas a transformar -->
+        <div class="product">
+            <h2>Te vas a transformar</h2>
+            <p>Este curso te ayudará a transformar tu mente y cuerpo. Mejora tu bienestar físico y emocional.</p>
+            <a href="https://go.hotmart.com/N96818868Y?ap=c333" class="cta-button" target="_blank">Compra ahora</a>
+        </div>
+
+        <!-- Product 3: Recetas para Bebés -->
+        <div class="product">
+            <h2>Más de 180 recetas para bebés de 6 meses a 5 años</h2>
+            <p>Recibe un recetario completo para alimentar a tu bebé con recetas saludables y deliciosas.</p>
+            <a href="https://go.hotmart.com/V96818729X" class="cta-button" target="_blank">Compra ahora</a>
+        </div>
+
+        <!-- Product 4: HYDROP LATAM - Rango Junior -->
+        <div class="product">
+            <h2>HYDROP LATAM - Rango Junior</h2>
+            <p>Curso ideal para aprender sobre Hidroponía y cómo aplicar estas técnicas en el cultivo de tus propios alimentos.</p>
+            <a href="https://go.hotmart.com/D96801593O?ap=cd42" class="cta-button" target="_blank">Compra ahora</a>
+        </div>
+
+        <!-- Product 5: MasterClass + Reto La Energía del Dinero -->
+        <div class="product">
+            <h2>Combo MasterClass + Reto La Energía del Dinero</h2>
+            <p>Una oportunidad única para aprender sobre cómo manejar el dinero, atraer abundancia y mejorar tu bienestar financiero.</p>
+            <a href="https://go.hotmart.com/O96818909Y?dp=1" class="cta-button" target="_blank">Compra ahora</a>
+        </div>
+
+        <!-- Product 6: Recetas de Postres -->
+        <div class="product">
+            <h2>+190 Recetas de postres para toda ocasión</h2>
+            <p>El recetario definitivo para todos los amantes de los postres. ¡Sorprende a tu familia y amigos con deliciosos postres!</p>
+            <a href="https://go.hotmart.com/Y96834559A?ap=9184" class="cta-button" target="_blank">Compra ahora</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tu Página de Afiliados. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
